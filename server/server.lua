@@ -1,7 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterNetEvent('ns-rentals:server:PayForRental')
-AddEventHandler('ns-rentals:server:PayForRental', function(plate)
+RegisterNetEvent('ns-rentals:server:PayForRental', function(plate)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     
@@ -48,14 +47,12 @@ function GiveVehiclePapers(source)
     TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['rentalpapers'], "add")
 end
 
-RegisterNetEvent('ns-rentals:server:GivePapers')
-AddEventHandler('ns-rentals:server:GivePapers', function(source)
+RegisterNetEvent('ns-rentals:server:GivePapers', function(source)
     local src = source
     GiveVehiclePapers(src)
 end)
 
-RegisterNetEvent('ns-rentals:server:removepapers')
-AddEventHandler('ns-rentals:server:removepapers', function()
+RegisterNetEvent('ns-rentals:server:removepapers', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
 
