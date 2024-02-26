@@ -11,4 +11,4 @@ ns-rentals is a script made from scratch by NS Development to ensure that your s
 
 # Notes
 
-- If you come across any bugs open a ticket and let me know in the NS Development discord.
+- If you come across any bugs or have any suggestions open a ticket and let me know in the NS Development discord found on my ReadMe.md on my GitHub Profile.
