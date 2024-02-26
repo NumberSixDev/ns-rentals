@@ -173,9 +173,9 @@ for _, location in ipairs(locations) do
 end
 
 local returnlocations = {
-    { coords = vector3(1855.25, 2582.53, 45.25), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 7.0 },
-    { coords = vector3(294.15, -612.61, 43.41), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 7.0 },
-    { coords = vector3(141.67, -1085.33, 29.19), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 7.0 },
+    { coords = vector3(1852.73, 2582.43, 45.67), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 5.0 },
+    { coords = vector3(294.15, -612.61, 43.41), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 5.0 },
+    { coords = vector3(141.67, -1085.33, 29.19), actionEvent = "ns-rentals:returnvehicle", actionText = "[~g~E~w~] Return Rental Vehicle", maxDistance = 5.0 },
 }
 
 for _, returnlocation in ipairs(returnlocations) do
