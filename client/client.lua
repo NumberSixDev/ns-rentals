@@ -1,7 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterNetEvent('ns-rentals:spawnvehicle')
-AddEventHandler('ns-rentals:spawnvehicle', function(data)
+RegisterNetEvent('ns-rentals:spawnvehicle', function(data)
     local ped = PlayerPedId()
     local coords = QBCore.Functions.GetCoords(ped)
     local vehicleIndex = data.vehicleIndex
@@ -49,8 +48,7 @@ AddEventHandler('ns-rentals:spawnvehicle', function(data)
     end, parkingCoords, true, true)
 end)
 
-RegisterNetEvent('ns-rentals:returnvehicle')
-AddEventHandler('ns-rentals:returnvehicle', function(data)
+RegisterNetEvent('ns-rentals:returnvehicle', function(data)
     local src = source
     local ped = PlayerPedId()
     local vehicle = GetVehiclePedIsIn(ped)
@@ -115,8 +113,7 @@ function GetRandomCoords(coordsTable)
     return coordsTable[randomIndex]
 end
 
-RegisterNetEvent('ns-rentals:openmenu')
-AddEventHandler('ns-rentals:openmenu', function()
+RegisterNetEvent('ns-rentals:openmenu', function()
     local Player = QBCore.Functions.GetPlayerData()
     local jobName = Player.job.name
     local menuOptions = {
